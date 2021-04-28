@@ -19,6 +19,8 @@ public class Baseclass {
 	 
  }
  
+ public void getjjize(WebElement element) {
+	 element.getSize();
  
- 
+}
 }
