@@ -23,4 +23,7 @@ public class Baseclass {
 	 element.getSize();
  
 }
+ public void getjjikze(WebElement element) {
+	 element.getSize();
+}
 }
