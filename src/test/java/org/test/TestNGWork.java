@@ -42,8 +42,9 @@ public static void aftermethod() {
 public static void test() throws InterruptedException {
 	WebElement txtname = driver.findElement(By.id("username"));
 	txtname.sendKeys("hello");
+	Thread.sleep(9000);
 	WebElement txtpass = driver.findElement(By.id("password"));
-    txtpass.sendKeys("gddgdghdd");
+    txtpass.sendKeys("vinithpanda");
     Thread.sleep(2000);
     WebElement btnlogin = driver.findElement(By.name("login"));
     btnlogin.click();
